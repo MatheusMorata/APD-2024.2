@@ -27,8 +27,8 @@ function req(url, metodo, payload = '') {
     var url = 'https://api-service.fogocruzado.org.br/api/v2/auth/login';
     var metodo = 'post';
     var payload = {
-      'email': 'eumatheus09@gmail.com',
-      'password': 'M@theus2508'
+      'email': 'seuEmail',
+      'password': 'suaSenha'
     };
     var resposta = req(url, metodo, payload);
     return resposta.data.accessToken;
